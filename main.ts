@@ -1,0 +1,5 @@
+Render.setViewMode(ViewMode.raycastingView)
+tiles.setCurrentTilemap(tilemap`niveau2`)
+let mySprite = Render.getRenderSpriteVariable()
+tiles.placeOnRandomTile(mySprite, sprites.castle.tileGrass1)
+scene.cameraFollowSprite(mySprite)
